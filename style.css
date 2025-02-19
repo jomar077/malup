@@ -1,0 +1,50 @@
+.navbar{
+    background-color: black;
+    height: 10vh;
+    
+}
+
+.navbar .nav-link{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.btn {
+    padding: 12px 30px;
+    font-weight: 900;
+    font-size: 18px;
+}
+ 
+.btn-pirate{
+    background-color: white;
+    border: 12px solid white;
+    border-radius: 60px;
+    transition: all ease-in 0.5s;
+}
+
+.btn-pirate:hover {
+    color: black;
+    border: 2px solid black;
+}
+
+.banner {
+    background-image: url(mal2.jpg);
+    height: 90vh;
+    background-size: cover;
+}
+
+.banner h1{
+    font-size: 45px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.banner p {
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
