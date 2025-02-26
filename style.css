@@ -16,20 +16,20 @@
     font-size: 18px;
 }
  
-.btn-pirate{
+.btn-malup{
     background-color: white;
     border: 12px solid white;
     border-radius: 60px;
     transition: all ease-in 0.5s;
 }
 
-.btn-pirate:hover {
+.btn-malup:hover {
     color: black;
     border: 2px solid black;
 }
 
 .banner {
-    background-image: url(luf2.png);
+    background-image: url(mal1.jpg);
     height: 90vh;
     background-size: cover;
 }
@@ -48,3 +48,56 @@
     text-transform: uppercase;
 }
 
+section {
+    padding: 100px 0;
+    font-style: oblique;
+}
+
+#about h2, #about h3 {
+   text-transform: uppercase;
+   font-weight: 800;
+}
+
+#about h3, #services h2 {
+    color: crimson;
+}
+
+#about img {
+    border: 7px solid white;
+    box-shadow: 0 0 20px 0 black;
+    border-radius: 25px;
+}
+
+.card-img-top {
+    width: 130px;
+    
+}
+
+.card {
+    padding: 25px 20px;
+    transition: all ease-in 0.5s;
+    border: 5px solid white;
+    box-shadow: 0 0 15px 0 rgb(255, 255, 255);
+    border-radius: 25px;
+    margin-top: 20px;
+}
+.card:hover{
+    background-color:rgb(209, 124, 124);
+}
+
+.card:hover .card-title,
+.card:hover .card-text{
+    color: white;
+}
+
+#services h2 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 55px;
+    color: crimson;
+    margin-bottom: 30px;
+}
+
+#services {
+    background: rgb(0, 0, 0);
+}
