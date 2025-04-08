@@ -175,3 +175,17 @@ footer {
     color:  rgb(244, 149, 15) ;
     
 }
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+    section {
+        padding: 60px 20px;
+    }
+    #about img {
+        height: 300px;
+        width: 300px;
+        margin: 30px;
+    }
+}
